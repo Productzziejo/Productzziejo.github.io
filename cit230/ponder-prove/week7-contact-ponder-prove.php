@@ -47,7 +47,7 @@ $errors['invalidform'] = "Please provide a valid email address";
 
 //If there are no errors stored in the error array proceed to form and then send the email message
 if(!$errors) {
-$to = '';
+$to = 'kenzziejo@gmail.com';
 $txtfName = $_POST['txtfName']."\n";
 $txtlName = $_POST['txtlName']."\n";
 $rSubject = $_REQUEST['rSubject'];
@@ -58,9 +58,9 @@ $degree = $_POST['degree'];
 $likeit =$_POST['likeit'];
 $how =$_POST['how'];
 
-$message = "Hello!
+$message = "Hey pretty lady, 
 
-Your contact form has been submitted by:
+Your contact form has been submitted by your friend:
 
 First Name: $txtfName
 Last Name: $txtlName

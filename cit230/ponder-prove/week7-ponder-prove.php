@@ -10,18 +10,8 @@
     </head>
     <body>
         <header>
-            <h3>(at the top in the header area)</h3>
-            <h1>The Rock Market</h1>
-            <p>(tagline) Rock Success is in the Eyes of the Beholder</p>
-            <p>(insert banner image)</p>
+            <?php include("../modules/header.php"); ?>
             
-            <figure>
-                <img src="images/rocks.png" alt="photo of a rock city" title="Solemn Rocks" hight="150" width="125"/>
-                <figcaption>Rocks are great to view from a ship!</figcaption>
-            </figure>
-            
-
-
         </header>
         <br>
         <nav>
@@ -50,11 +40,8 @@
         </main>
         <br>
         <footer>
-            <h3>(the bottom of the page)</h3>
-            <p><a href="copyright-info.html">Copyright</a></p>
-            <p><a href="about-us.html">About Us</a></p>
-            <p><a href="contactinfo.html">Contact Information</a></p>
-            <p><a href="week4-ponder-prove-anchors.html#ho">Hours of Operation</a></p>
+             <?php include("../modules/footer.php"); ?>
+            
         </footer>
 
          <p id="bird">An animation of a bird loking for rocks</p>
