@@ -1,0 +1,98 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background: url(background.jpg);
+   
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -o-background-size: contain;
+        background-size: contain;
+        /* background an image rather than a color */
+}
+
+body {
+    font-family: "Georgia", serif;
+    border: solid thick #2A5D59;
+    background-color:#FFFFFF;
+    width: 700px;
+    margin: 90px auto;
+    padding-bottom: 15px;
+    border-radius: 20px;
+    line-height: 1.6;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+}
+
+h1 {
+    font-family:"Gochi Hand","chalkboard", sans-serif;
+    font-weight:normal;
+    text-align:center;
+    padding: 1px;
+    line-height: .001;
+    font-size: 7em;
+    background-color:#2A5D59;
+    color: #F37D61;
+    text-shadow: 0px -14px 8px #2A5D59;
+    border-radius: 15px 15px 0 0;
+    -moz-border-radius-topleft: 12px;
+    -moz-border-radius-topright: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -webkit-border-top-right-radius: 12px;
+
+}
+
+#title{
+     font-family: "Georgia", serif;
+     font-weight: bold;
+    font-size: 30px;
+    line-height: 3.5;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+#blog{
+     font-family: "Gochi Hand", "chalkboard", sans-serif;
+}
+
+h2,h3,h4,h5,h6{
+    font-family: "Gochi Hand", "chalkboard", sans-serif;
+    padding: 10px 25px 10px;
+    color:#F37D61;
+    letter-spacing: 2px;
+    font-size: 1.8em
+}
+
+p{
+    font-size: .9em;
+    color:#2A5D59;
+    padding: 10px 25px 10px;
+}
+
+li {
+    font-size: .9em;
+    color:#2A5D59;
+    padding: 0 25px 10px;
+    list-style:inside;	
+}
+
+#logo {
+    float:none;
+    margin:50px;
+    border: solid 20px #F37D61
+    /* You could also try "float:left"*/
+}
+
+#logobox {
+    text-align: center;
+}
+
+
