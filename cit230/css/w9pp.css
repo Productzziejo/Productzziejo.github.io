@@ -1,0 +1,201 @@
+body {
+    color: red;
+    font-family: arial, helvetica;
+    background-image: url(images/garden.jpg);
+    background-repeat: repeat-x;
+}
+
+header {
+    line-height: 50%;
+    border: thick solid red;
+    width: 50%;
+    float: left
+}
+
+nav {
+    color: #00FF00;
+    background-color: rgba(247, 209, 210, .5);
+    text-indent: 50px;
+    border: dashed green;
+    width: 45%;
+    margin-left: 55%;
+}
+
+nav ol {
+    background-color: fuchsia;
+}
+
+nav ol li {
+    border: solid thick purple;
+    display: inline;
+    padding: 1.5em
+}
+
+nav ul li {
+    display: list-item
+}
+
+div#left-col {
+    border-left-style: dotted;
+    border-right-style: dotted
+}
+
+main strong {
+    color: purple;
+    font-size: 36px;
+}
+
+main img {
+    height: 150px;
+    width: 125px;
+}
+
+aside.introduction {
+    font-size: 8px;
+    color: #00FF00;
+    margin: 24px;
+}
+
+
+/*green*/
+
+footer {
+    color: rgb(0%, 100%, 0%);
+}
+
+
+/*green*/
+
+footer ul {
+    text-shadow: 3px 3px 1px #777777;
+    border-style: double;
+    border-bottom-width: 10px;
+    border-top-color: yellow;
+}
+
+footer ul li {
+    display: inline;
+}
+
+h1 {
+    color: green;
+    text-align: center;
+    font-family: cursive, arial;
+    font-size: x-large;
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bold;
+}
+
+h1.dropcap::first-letter {
+    font-weight: bold;
+    font-size: 3em;
+    color: yellow;
+}
+
+h2 {
+    color: green;
+    font-family: sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+h4 {
+    color: green;
+}
+
+table {
+    color: green;
+    width: 50%;
+    margin: auto;
+    border: solid blue 5px;
+    border-radius: 4em 4em 4em 6em/4em 6em 83m 2em;
+    transition-property: width;
+    transition-duration: 2s;
+}
+
+table:hover {
+    width: 75%;
+}
+
+caption {
+    font-size: 1.5em;
+}
+
+th {
+    letter-spacing: -.25em;
+}
+
+td {
+    text-decoration: line-through;
+}
+
+dd {
+    word-spacing: 1.5em;
+}
+
+a:hover {
+    font-weight: bold;
+    color: green;
+}
+
+span.docintro {
+    color: rgb(0, 0, 255);
+}
+
+
+/*blue*/
+
+.dropcap::first-letter {
+    color: purple;
+    font-size: 600%;
+}
+
+.sitebranding {
+    font-size: 6px;
+    background-color: aqua
+}
+
+.firstsentence {
+    font-weight: bold;
+}
+
+.fs2em {
+    font-size: 2em;
+}
+
+.fs2ex {
+    font-size: 2ex;
+}
+
+.fs24px {
+    font-size: 24px;
+}
+
+.fs120prcnt {
+    font-size: 120%;
+}
+
+.fs24pt {
+    font-size: 24pt;
+}
+
+.fsin {
+    font-size: .5in;
+}
+
+a:link {
+    color: #ab2467
+}
+
+a:visited {
+    color: rgb(45, 34, 20);
+}
+
+a:hover {
+    background-color: pink;
+}
+
+a:active {
+    color: rgb(20, 30, 20)
+}
