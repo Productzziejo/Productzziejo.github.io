@@ -7,6 +7,7 @@ body {
     background-color: #DB5D00;
     width: 660px;
     margin: auto;
+    margin-top: 40px;
     padding: 15px;
     border: dashed thick black;
 }
@@ -67,4 +68,45 @@ section {
 
 p {
     padding: 30px;
+    font-size: 1.5em;
+}
+
+.button {
+    background-color: yellow;
+    border: solid thick black;
+    margin: 15px;
+    display: inline-block;
+}
+
+li {
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: darkred;
+    margin-right: 20px;
+}
+
+li li {
+    color: white;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 40px;
+    line-height: 20px;
+}
+
+table,
+td {
+    background-color: darkred;
+    font-style: italic;
+    font-size: 25px;
+    padding: 15px;
+}
+
+thead {
+    color: black;
+    font-weight: bolder;
+    font-size: 35px;
+    line-height: 30px;
+    background-color: darkred;
 }
