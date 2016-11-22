@@ -1,60 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-        <title>contact-us.html</title>
-        <link rel="stylesheet" type="text/css" href="../../cit230/css/indv-styles.css">
-        
-    </head>
-    
-    <body>
 
-        <section>
+<head>
+    <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+    <title>contact-us.html</title>
+    <link rel="stylesheet" type="text/css" href="../../cit230/css/indv-styles.css">
+
+</head>
+<header>
+    <div class="top">
+        <h1 class="title" class="head">Fruit Falling</h1>
+
+        <nav>
+            <ol>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="indv-website/our-dives.html">FRUIT FALLING</a></li>
+                <li><a href="indv-website/schedule-your-dive.html">PLAN YOUR DIVE</a></li>
+                <li><a href="indv-website/expect/expect.html">WHAT TO EXPECT</a></li>
+                <li><a href="indv-website/about-us.html">ABOUT US</a></li>
+                <li><a href="indv-website/cit230-links.html"> CIT230-links </a></li>
+            </ol>
+
+        </nav>
+    </div>
+
+    <div class="banner">
+        <h1>SkyDiving Experience <br> Like No Other!</h1>
+
+        <div class="social">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img src="../images/facebook.png" alt="facebook logo">
+            </a>
+            <a href="https://twitter.com/" target="_blank">
+                <img src="../images/twitter.png" alt="twitter logo">
+            </a>
+            <a href="https://www.instagram.com/" target="_blank">
+                <img src="../images/instagram.png" alt="instagram logo">
+            </a>
+            <a href="https://www.snapchat.com/" target="_blank">
+                <img src="../images/snapchat.png" alt="snapchat logo">
+            </a>
+        </div>
+
+    </div>
+
+
+</header>
+
+<body>
+
+    <section>
         <h3>Questions About Diving? Comments Concerning Falling? Concerns About Fruit?</h3>
         <h2>We Would Love to Hear from you!</h2>
-        </section>
+    </section>
 
 
-            <fieldset>
-                <legend> Fill in All Sections to Send Us an Email</legend>
-                <ul>
-                    <li><label for="txtfName">First and Last Name:</label> 
-                        <input type="text" name="Name" id="Name" size="45" /></li>
-                    <li><label for="txtEmail">Email: </label>
-                        <input type="text" name="txtEmail" id="txtEmail" size="40" /></li>
-                    <li><label for="rSubject">Subject of the Message:</label>
-                        <input type="text" name="rSubject" id="rSubject" size="50" /></li>
-                        
-                    <li><label for="taMessage">Message</label></li>
-                    <li><textarea name="taMessage" id="taMessage" cols="40" rows="10">Please leave a comment!</textarea></li>
-                    
-                     <li>Are You Scheduled to Go FruitFalling?
-                        <label for="yes">Oh Yeah!</label>
-                        <input type="radio" name="scheduled" id="yes" value="Yes" checked="checked"/>
-                        <label for="Not Yet">Not Yet</label>
-                        <input type="radio" name="scheduled" id="Not Yet" value="Not Yet" />
-                       	<label for="Only in My Dreams">Only in My Dreams</label>
-                        <input type="radio" name="scheduled" id="Only in My Dreams" value="Only in My Dreams" />  
-                    </li>
-                    
-                    <li><label for="how">What Got You Interested in FruitFalling?</label>
-                     
-                    <select name="how" id="how">
+    <fieldset>
+        <legend> Fill in All Sections to Send Us an Email</legend>
+        <ul>
+            <li>
+                <label for="txtfName">First and Last Name:</label>
+                <input type="text" name="Name" id="Name" size="45" />
+            </li>
+            <li>
+                <label for="txtEmail">Email: </label>
+                <input type="text" name="txtEmail" id="txtEmail" size="40" />
+            </li>
+            <li>
+                <label for="rSubject">Subject of the Message:</label>
+                <input type="text" name="rSubject" id="rSubject" size="50" />
+            </li>
+
+            <li>
+                <label for="taMessage">Message</label>
+            </li>
+            <li>
+                <textarea name="taMessage" id="taMessage" cols="40" rows="10">Please leave a comment!</textarea>
+            </li>
+
+            <li>Are You Scheduled to Go FruitFalling?
+                <label for="yes">Oh Yeah!</label>
+                <input type="radio" name="scheduled" id="yes" value="Yes" checked="checked" />
+                <label for="Not Yet">Not Yet</label>
+                <input type="radio" name="scheduled" id="Not Yet" value="Not Yet" />
+                <label for="Only in My Dreams">Only in My Dreams</label>
+                <input type="radio" name="scheduled" id="Only in My Dreams" value="Only in My Dreams" />
+            </li>
+
+            <li>
+                <label for="how">What Got You Interested in FruitFalling?</label>
+
+                <select name="how" id="how">
                     <option selected value="">--Please Select--</option>
-                    
+
                     <option>I found This Crazy Site on Google</option>
                     <option>A Friend Inspired Me</option>
                     <option>I've Fallen Before</option>
                     <option>No Idea... I Must be Crazy</option>
                     <option>Other</option>
-                    </select>
-                        
-                    <li><label for="submit">&nbsp;</label>
-                    <input type="submit" name="submit" id="submit" value="Send"> </li>
-                        
-                </ul>
-                
-            </fieldset>
+                </select>
 
-    </body>
+                <li>
+                    <label for="submit">&nbsp;</label>
+                    <input type="submit" name="submit" id="submit" value="Send"> </li>
+
+        </ul>
+
+    </fieldset>
+
+</body>
+
 </html>

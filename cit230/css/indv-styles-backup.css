@@ -1,0 +1,119 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+	background-color:#DB5D00;
+	width: 660px;
+	margin: auto;
+	padding-bottom: 15px;
+}
+
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-weight: normal;
+    text-align: center;
+    padding: 20px;
+    padding-bottom: 0px;
+    font-size: 4em;
+    background-color: #FFCA76;
+    color: #B20D00;
+    text-shadow: 2px -5px 1px black;
+    margin-bottom: 0px;
+    line-height: 100px;
+
+    }
+
+h2, h3, h4 {
+    
+    font-family: 'Rock Salt', cursive;
+	font-weight:normal;
+	text-align:center;
+	padding: 15px 15px 15px 15px; 
+	color: #B20D00;
+    margin-top: 0;
+}
+    
+section h2, h3, h4 {
+    
+	padding: 0px 15px 0px 15px; 
+    margin-bottom: 0;
+	
+
+}
+
+
+a  {
+    background-color: #FF9C00;
+    padding: 5px;
+    color: black;
+    font-size: 1.4em;
+    border: solid;
+    line-height: 4;
+    
+}
+a:hover {
+    color:white;
+    box-shadow: 4px 4px 5px black
+    
+}
+
+nav {
+    padding: 30px;
+    color:black;
+    font-family: 'Rock Salt', cursive;
+    font-size: .7em;
+    
+    }
+
+nav li {
+    background-color: #FF9C00;
+    padding: 5px;
+    color: black;
+    border: solid;
+    line-height: 4;
+    display:inline;
+    
+}
+
+section {
+    background-color: #FFCA76;
+    text-align: center;
+
+    
+}
+
+p {
+
+    padding: 30px;
+
+    
+}
+
+footer{
+    line-height: .7;
+    display:inline-block;
+    font-size:.5em;
+    padding: 40px;
+    text-align-last: center;
+    margin-left: 170px 
+    
+}
+
+
+fieldset {
+    margin: 30px
+}
+
+img {
+    padding: 20px;
+    
+}
