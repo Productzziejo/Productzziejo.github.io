@@ -115,18 +115,15 @@ main {
 
 .mid {
     display: flex;
-    flex: row;
-    flex-wrap: wrap;
+    flex: row wrap;
 }
 
 section {
     background-color: yellow;
     margin: 30px;
-    max-width: 1000px;
     text-align: center;
     padding: 10px;
     flex: row;
-    margin: auto;
 }
 
 .secsec {
@@ -137,6 +134,7 @@ section {
 .secsec section {
     width: 700px;
     flex: row;
+    margin: auto;
 }
 
 .secsec div {
