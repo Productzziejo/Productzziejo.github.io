@@ -1,205 +1,215 @@
-@charset "UTF-8";
-
-/* CSS Document */
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
-@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
-* {
-    box-sizing: border-box;
-}
-
-img {
-    max-width: 100%;
-}
-
-html {}
-
-body {
-    width: 100%;
-    color: darkred;
-    background-color: lightgoldenrodyellow;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-
-.top {
-    width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: white;
-    top: 0px;
-    height: 134px;
-    display: block;
-}
-
-.title {
-    display: inline-block;
-    float: left;
-    font-family: "rock salt", sans-serif;
-    font-size: 3.5em;
-    margin: 0px;
-    text-shadow: -1px -2px 0 black;
-}
-
-nav {
-    display: inline-block;
-    vertical-align: top;
-    float: right;
-}
-
-nav li {
-    display: inline-block;
-    padding: 5px;
-    font-size: 20px;
-}
-
-.banner {
-    background-image: url("../../images/cover.jpg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 1200px;
-    height: 390px;
-    margin: auto;
-}
-
-.banner h1 {
-    font-family: "rock salt", sans-serif;
-    font-size: 2.5em;
-    text-align: center;
-    display: inline-block;
-    margin: 140px 0px 0px 20px;
-    line-height: 65px;
-    text-shadow: -1px -2px 0 black;
-}
-
-.banner .sectag {
-    margin-left: 260px;
-    margin-top: 120px;
-    line-height: 40px;
-    font-size: 1.9em;
-    width: 290px;
-}
-
-.banner .social {
-    width: 80px;
-    display: block;
-    float: right;
-    margin-top: 25px;
-    margin-right: -30px;
-}
-
-.secnav li {
-    display: block;
-    font-size: 25px;
-    line-height: 55px;
-    margin-left: -10px;
-}
-
-.secnav {
-    background-color: yellow;
-    margin-top: -200px;
-    display: inline-block;
-    height: 342px;
-    width: 250px;
-    position: absolute;
-    top: 342px;
-    left: 90px;
-}
-
-main {
-    width: 80%;
-    max-width: 1200px;
-    display: block;
-    margin: auto;
-    padding: 5px;
-}
-
-.mid {
-    display: flex;
-    flex: row wrap;
-}
-
-section {
-    background-color: yellow;
-    margin: 30px;
-    text-align: center;
-    padding: 10px;
-    flex: row;
-}
-
-.secsec {
-    display: flex;
-    flex-direction: column;
-}
-
-.secsec section {
-    width: 700px;
-    flex: row;
-    margin: auto;
-}
-
-.secsec div {
-    display: inline-block;
-    float: right;
-    width: 300px;
-    font-size: 1.5em;
-}
-
-.secsec img {
-    float: left;
-}
-
-.bar {
-    background-color: yellow;
-    width: 100%;
-    padding: 2px 5px 5px 30px;
-}
-
-footer {
-    background-color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-footer a {
-    display: inline-block;
-    float: right;
-    padding-right: 30px;
-}
-
-footer div {
-    padding: 10px;
-}
-
-p {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 1.3em;
-    margin: 0px;
-}
-
-h1,
-h2 {
-    font-family: "rock salt", sans-serif;
-    font-size: 1.3em;
-    margin: 0px;
-}
-
-a {
-    color: black;
-    font-size: 1em;
-}
-
-a:hover {
-    color: yellow;
-    text-shadow: 4px 4px 5px black;
-    font-size: 1.1em;
-}
-
-a:active {
-    color: black;
-    text-shadow: 4px 4px 5px black;
-    font-size: 1.1em;
-}
-
-audio {
-    margin: 30px 0px 30px 0px;
-}
+                @charset "UTF-8";
+            /* CSS Document */
+            
+            @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+            @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+            * {
+                box-sizing: border-box;
+            }
+            
+            img {
+                max-width: 100%;
+            }
+            
+            html {}
+            
+            body {
+                width: 100%;
+                color: darkred;
+                background-color: black;
+                font-family: 'Open Sans Condensed', sans-serif;
+            }
+            
+            .top {
+                width: 100%;
+                padding-left: 30px;
+                padding-right: 30px;
+                background-color: darkgrey;
+                top: 0px;
+                height: 134px;
+                display: block;
+            }
+            
+            .title {
+                display: inline-block;
+                float: left;
+                font-family: "rock salt", sans-serif;
+                font-size: 3.5em;
+                margin: 0px;
+                text-shadow: -1px -2px 0 black;
+            }
+            
+            nav {
+                display: inline-block;
+                vertical-align: top;
+                float: right;
+            }
+            
+            nav li {
+                display: inline-block;
+                padding: 5px;
+                font-size: 20px;
+            }
+            
+            .banner {
+                background-image: url("../../images/cover.jpg");
+                background-repeat: no-repeat;
+                background-size: contain;
+                width: 1200px;
+                height: 390px;
+                margin: auto;
+            }
+            
+            .banner h1 {
+                font-family: "rock salt", sans-serif;
+                font-size: 2.5em;
+                text-align: center;
+                display: inline-block;
+                margin: 110px 0px 0px 20px;
+                line-height: 65px;
+                text-shadow: -1px -2px 0 black;
+            }
+            
+            .banner .sectag {
+                margin-left: 260px;
+                margin-top: 120px;
+                line-height: 40px;
+                font-size: 1.9em;
+                width: 290px;
+            }
+            
+            .banner .social {
+                width: 80px;
+                display: block;
+                float: right;
+                margin-top: 25px;
+                margin-right: -30px;
+            }
+            
+            .secnav li {
+                display: block;
+                font-size: 25px;
+                line-height: 55px;
+                margin-left: -10px;
+            }
+            
+            .secnav {
+                background-color: yellow;
+                margin-top: -200px;
+                display: inline-block;
+                height: 342px;
+                width: 250px;
+                position: absolute;
+                top: 342px;
+                left: 90px;
+            }
+            
+            main {
+                width: 80%;
+                max-width: 1200px;
+                display: block;
+                margin: auto;
+                padding: 5px;
+            }
+            
+            .mid {
+                display: flex;
+                flex: row wrap;
+            }
+            
+            section {
+                background-color: yellow;
+                margin: 30px;
+                text-align: center;
+                padding: 10px;
+                flex: row;
+            }
+            
+            .secsec {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .secsec section {
+                width: 700px;
+                flex: row;
+                margin: auto;
+            }
+            
+            .secsec div {
+                display: inline-block;
+                float: right;
+                width: 300px;
+                font-size: 1.5em;
+            }
+            
+            .secsec img {
+                float: left;
+            }
+            
+            .bar {
+                background-color: yellow;
+                width: 100%;
+                padding: 2px 5px 5px 30px;
+            }
+            
+            footer {
+                background-color: darkslategrey;
+                padding-left: 5px;
+                padding-right: 5px;
+            }
+            
+            footer a {
+                display: inline-block;
+                float: right;
+                padding-right: 30px;
+            }
+            
+            footer div {
+                padding: 10px;
+            }
+            
+            p {
+                font-family: 'Open Sans Condensed', sans-serif;
+                font-size: 1.3em;
+                margin: 0px;
+            }
+            
+            h1,
+            h2 {
+                font-family: "rock salt", sans-serif;
+                font-size: 1.3em;
+                margin: 0px;
+            }
+            
+            a {
+                color: black;
+                font-size: 1em;
+            }
+            
+            a:hover {
+                color: yellow;
+                text-shadow: 4px 4px 5px black;
+                font-size: 1.1em;
+            }
+            
+            a:active {
+                color: black;
+                text-shadow: 4px 4px 5px black;
+                font-size: 1.1em;
+            }
+            
+            audio {
+                margin: 30px 0px 30px 0px;
+            }
+            
+            .hours {
+                list-style: none;
+                display: inline-block;
+                text-align: left;
+            }
+            
+            @media screen and (max-width: 600px) {
+                .title {
+                    font-size: 2.2em;
+                }
