@@ -15,7 +15,7 @@ html {}
 
 body {
     width: 100%;
-    color: white;
+    color: #044f91;
     background-color: black;
     font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -37,6 +37,7 @@ body {
     font-size: 3.5em;
     margin: 0px;
     text-shadow: -1px -2px 0 black;
+    color: white;
 }
 
 nav {
@@ -68,6 +69,7 @@ nav li {
     margin: 110px 0px 0px 20px;
     line-height: 65px;
     text-shadow: -1px -2px 0 black;
+    color: white;
 }
 
 .banner .sectag {
@@ -157,11 +159,10 @@ section {
     padding: 25px;
 }
 
-.secpage > p,
-h4,
-h3 {
+.secpage > p {
     color: #044f91;
     padding-left: 20px;
+
 }
 
 .secpage > figure {
@@ -169,10 +170,7 @@ h3 {
     float: left;
 }
 
-.bar {
-    width: 100%;
-    padding: 2px 5px 5px 30px;
-}
+
 
 footer {
     background-color: #ff5508;
@@ -194,10 +192,11 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.3em;
     margin: 0px;
+    color: 
 }
 
 section p {
-    color: #044f91
+    color: #044f91;
 }
 
 h1 {
@@ -206,6 +205,7 @@ h1 {
     margin: 0px 20px 0px 20px;
     padding: 0px;
     text-shadow: -1px -2px 0 black;
+    color: white;
 }
 
 h2 {
@@ -214,6 +214,7 @@ h2 {
     margin: 0px;
     padding: 0px;
     text-shadow: -1px -2px 0 black;
+    color: white;
 }
 
 a {
@@ -222,9 +223,10 @@ a {
 }
 
 a:hover {
-    color: yellow;
+    
     text-shadow: 4px 4px 5px black;
     font-size: 1.1em;
+    color:white;
 }
 
 a:active {
@@ -254,6 +256,10 @@ audio {
     color: #044f91
 }
 
+.white {
+    color:white;
+}
+
 fieldset {
     text-align: left;
 }
@@ -265,6 +271,43 @@ video {
 }
 
 @media screen and (max-width: 600px) {
-.title {
-        font-size: 2.2em;
+
+    .top {
+        width: 100%;
+        height: 175px;
+        
+    }
+    header {
+        height: 300px;
+    }
+    .title {
+        font-size: 2.5em;
+        margin-bottom: -25px;
+    }
+    .banner{
+    width:100%
+    }
+    body {
+        max-width: 600px;
+    }
+    .banner h1 {
+      display: none;
+    
+    }
+    .mid {
+        flex-direction: column;    
+    }
+    .mid > section {
+        margin: 10px 0px 10px 0px;
+    }
+    audio {
+        width: 70%;
+       
+    }
+    .social > a {
+    width: 50px;
+    display: inline-block;
+    text-align: center;
+    margin: 0px;
+        
     }
