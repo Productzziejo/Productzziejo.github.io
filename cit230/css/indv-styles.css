@@ -270,7 +270,9 @@ video {
     padding-top: 20px;
 }
 
-@media screen and (max-width: 600px) {
+@media handheld, screen and (max-width: 600px)
+
+ {
 
     .top {
         width: 100%;
