@@ -103,7 +103,7 @@ nav li {
     width: 250px;
     position: absolute;
     top: 342px;
-    left: 90px;
+    left: 85px;
 }
 
 main {
@@ -117,6 +117,16 @@ main {
 .mid {
     display: flex;
     flex: row wrap;
+}
+
+.bar {
+    background-color: #ffc200;
+    margin: 30px;
+    padding: 10px;
+}
+
+.bar > p {
+    color: #044f91;
 }
 
 section {
@@ -136,6 +146,7 @@ section {
     width: 800px;
     flex: row;
     margin: auto;
+    margin-top: 20px;
 }
 
 .secsec div {
@@ -152,7 +163,7 @@ section {
 }
 
 .secpage {
-    width: 88%;
+    width: 1200px;
     margin: auto;
     background-color: #FFDF79;
     margin-top: -48px;
@@ -192,7 +203,6 @@ p {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 1.3em;
     margin: 0px;
-    color: 
 }
 
 section p {
